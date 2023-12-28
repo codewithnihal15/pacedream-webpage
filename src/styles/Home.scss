@@ -1,0 +1,32 @@
+@import "colors";
+
+.home {
+  height: 80vh;
+  background-color: $second;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 80px;
+
+  > div {
+    > h1 {
+      font-size: 60px;
+      font-weight: 300;
+
+      color: $third;
+    }
+    > button {
+      padding: 15px 20px;
+      margin: 20px;
+      background-color: rgb(10, 18, 15);
+      color: $first;
+      border-radius: 40px;
+      font-size: large;
+      border: none;
+    }
+  }
+  > img {
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+  }
+}

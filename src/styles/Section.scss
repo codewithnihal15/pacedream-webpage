@@ -1,0 +1,23 @@
+@import "colors";
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+
+  > div input {
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    background-color: $first;
+    cursor: pointer;
+  }
+}
+.icon {
+  padding: 12px;
+  border-radius: 50%;
+  color: $first;
+  background-color: #632df8;
+}

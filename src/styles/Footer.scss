@@ -1,0 +1,17 @@
+@import "colors";
+
+.footer {
+  padding: 20px;
+  margin: -100px 80px;
+  background-color: $first;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+
+  > hr {
+    width: 45%;
+    margin-left: 10px;
+  }
+}
+.active-link {
+  text-decoration: underline;
+}
